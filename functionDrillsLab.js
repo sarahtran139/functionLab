@@ -24,6 +24,11 @@ helloWorld();
 */
 
 //CODE HERE
+const jsNinja = () => {
+  return 'I am a JavaScript ninja'
+};
+const result = jsNinja();
+console.log(result);
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -34,8 +39,10 @@ helloWorld();
 */
 
 //CODE HERE
-
-
+function printName(name){
+  console.log(name);
+} 
+printName('TranNguy');
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
@@ -47,7 +54,10 @@ helloWorld();
 */
 
 //CODE HERE
-
+function greeting(name){
+  console.log(`Hello ${name}`)
+}
+greeting('TranNguy');
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -61,6 +71,19 @@ helloWorld();
 */
 
 //CODE HERE
+function compareNums(number1, number2){
+  if (number1 > number2){
+    console.log(number1)
+  }
+  else if (number2 > number1){
+    console.log(number2)
+  }
+  else if(number1=number2)
+    console.log(number1)
+  }
+  compareNums(5,5);
+  compareNums(5,6);
+  compareNums(6,7);
 
 
 ////////////////// PROBLEM 6 ////////////////////
